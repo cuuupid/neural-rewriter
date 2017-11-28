@@ -1,0 +1,8 @@
+theano
+numpy
+nltk
+scipy
+sklearn
+scikit-image
+lasagne
+pillow
