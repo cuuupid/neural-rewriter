@@ -1,2 +1,4 @@
-*.pyc
-in*
+*.pkl
+*.npz
+*.npy
+*.txt

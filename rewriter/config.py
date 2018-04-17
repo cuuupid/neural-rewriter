@@ -17,18 +17,18 @@ paths['skmodels'] = '../models/'
 paths['sktables'] = '../models/'
 
 # Decoder
-paths['decmodel'] = '../romance.npz'
-paths['dictionary'] = '../romance_dictionary.pkl'
+paths['decmodel'] = '../storyteller/romance.npz'
+paths['dictionary'] = '../storyteller/romance_dictionary.pkl'
 
 # Image-sentence embedding
-paths['vsemodel'] = '../coco_embedding.npz'
+paths['vsemodel'] = '../storyteller/coco_embedding.npz'
 
 # VGG-19 convnet
-paths['vgg'] = '../vgg19.pkl'
+paths['vgg'] = '../storyteller/vgg19.pkl'
 
 # COCO training captions
-paths['captions'] = '../coco_train_caps.txt'
+paths['captions'] = '../storyteller/coco_train_caps.txt'
 
 # Biases
-paths['negbias'] = '../caption_style.npy'
-paths['posbias'] = '../romance_style.npy'
+paths['negbias'] = '../storyteller/caption_style.npy'
+paths['posbias'] = '../storyteller/romance_style.npy'
