@@ -24,7 +24,7 @@ $ wget http://www.cs.toronto.edu/\~rkiros/neural_storyteller.zip
 $ unzip neural_storyteller.zip && rm neural_storyteller.zip
 ```
 
-Add input text to in.txt and
+Add input text to rewriter/in.txt and
 
 ```sh
 $ pip install -r requirements.txt --user
@@ -32,6 +32,7 @@ $ pip install -r requirements.txt --user
 $ python
   >>> import nltk
   >>> nltk.download('punkt')
+$ cd rewriter
 $ python generate.py
 
 ```
