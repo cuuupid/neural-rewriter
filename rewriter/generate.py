@@ -28,7 +28,7 @@ def generate(sentences, stv, bpos, bneg, dec):
     console.log("Shifted style")
     # TODO: clean up here
     # Generate story conditioned on shift
-    passage = decoder.run_sampler(dec, shift, beam_width=50)
+    passage = decoder.run_sampler(dec, shift, beam_width=500)
     console.log("Sampled passage")
     return passage
 
