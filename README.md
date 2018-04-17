@@ -1,6 +1,6 @@
 # Rewriter
 
-![1](https://i.imgur.com/Tzvbjxz.png)
+![1](https://i.imgur.com/hreoKKF.png)
 
 ```
 $ git clone git://github.com/RomaniukVadim/neural-rewriter.git
