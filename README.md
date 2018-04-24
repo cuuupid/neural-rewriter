@@ -1,9 +1,11 @@
-# Rewriter
+# Neural Rewriter
+
+Based off of [neural-storyteller](https://github.com/ryankiros/neural-storyteller), for text style shifting.
 
 ![1](https://i.imgur.com/hreoKKF.png)
 
 ```
-$ git clone git://github.com/RomaniukVadim/neural-rewriter.git
+$ git clone git://github.com/pshah123/neural-rewriter.git
 ```
 
 ## neural-rewriter
@@ -41,3 +43,10 @@ If you get error like sequence bla bla...
 ```sh
 $  grep '[^[:blank:]]' < in.txt > file.out && rm in.txt && mv file.out in.txt
 ```
+
+
+## Credits
+
+[ryankiros](https://github.com/ryankiros) for the original repo.
+
+[RomaniukVadim](https://github.com/RomaniukVadim) for great documentation!
